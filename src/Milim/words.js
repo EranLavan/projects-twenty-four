@@ -503,7 +503,7 @@ const words = [
         id: 51,
         english: 'Lesson',
         russian: 'Урок',
-        hebrew: 'שעור',
+        hebrew: 'שיעור',
         pronuncEng: 'shiUr',
         pronuncRus: 'шиУр',
         category: 'general'
@@ -2183,9 +2183,9 @@ const words = [
         id: 219,
         english: 'Beet',
         russian: 'Свёкла',
-        hebrew: 'שזיף',
-        pronuncEng: 'shazif',
-        pronuncRus: 'шазИф',
+        hebrew: 'סלק',
+        pronuncEng: 'sElek',
+        pronuncRus: 'сЭлек',
         category: 'grocery'
       },
   
@@ -2574,9 +2574,9 @@ const words = [
         id: 258,
         english: 'Moon',
         russian: 'Луна',
-        hebrew: 'חושך',
-        pronuncEng: 'khOshekh',
-        pronuncRus: 'хОшех',
+        hebrew: 'ירח',
+        pronuncEng: 'yarEakh',
+        pronuncRus: 'ярЭах',
         category: 'general'
       },
   
@@ -3565,7 +3565,7 @@ const words = [
         english: 'To decide (infinitive)',
         russian: 'Принять решение (инфинитив)',
         hebrew: 'להחליט',
-        pronuncEng: 'lehahlit',
+        pronuncEng: 'lehakhlit',
         pronuncRus: 'леахлИт',
         category: 'hifil'
       },
@@ -6114,7 +6114,7 @@ const words = [
         id: 612,
         english: 'Ability, capability',
         russian: 'Способность',
-        hebrew: "",
+        hebrew: "יכולת",
         // ^^^FOR SOME STRANGE REASON WHEN I TRY TO TYPE THE CORRECT WORD IN HEBREW,
         // WHICH IS ACTUALLY yud-kaf-vav-lamed-tav (even here I can't do this as well!!!),
         // IT SCRAMBLES THE LETTERS INSIDE. IDK WHY THE FLUFF IS THIS HAPPENING
@@ -6730,6 +6730,7 @@ const words = [
       // IDEA 2: User should have an option to add words to this file, although it means he has to 
       // fill up all the properties
   
+      // IDEA 3: give user a hint if he asks: show one letter, show two letters, three letters
     ]
   
   export default words
