@@ -6,7 +6,7 @@ import Tests from './Milim/Tests.js'
 
 function App() {
   return (
-    <Router basename="/projects-twenty-four">
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         
           <Route path="/" element={<Milim />} />
