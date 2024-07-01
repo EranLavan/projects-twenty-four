@@ -6,12 +6,11 @@ import Tests from './Milim/Tests.js'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/projects-twenty-four">
       <Routes>
         
-          {/* <Milim /> */}
-          <Route path="/" exact component={Milim} />
-          <Route path="/tests" component={Tests} />
+          <Route path="/" element={<Milim />} />
+          <Route path="/tests" element={<Tests />} />
         
       </Routes>
     </Router>
