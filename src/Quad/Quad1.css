@@ -1,0 +1,100 @@
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+h2 {
+  margin: 0px;
+}
+
+div {
+  padding: 8px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+}
+
+.inputA, .inputB, .inputC {
+  width: 60px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-button:hover {
+  background-color: #0056b3;
+}
+
+.button-button:active {
+  opacity: 0.4;
+}
+
+.equation-display, .discr, .roots, .viete {
+  background-color: #e9ecef;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+h3, .equation-display, .discr, .roots, .viete {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .inputA, .inputB, .inputC {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .button-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

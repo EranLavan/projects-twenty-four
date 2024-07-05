@@ -1,0 +1,100 @@
+/* Existing styles */
+.hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  h2 {
+    margin: 0px;
+  }
+  
+  div {
+    padding: 8px;
+  }
+  
+  /* New styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: auto;
+    text-align: center;
+  }
+  
+  .inputA, .inputB, .inputC {
+    width: 60px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: border 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .inputA:focus, .inputB:focus, .inputC:focus {
+    border: 1px solid #888;
+  }
+  
+  .button-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .equation-display, .discr, .roots, .viete {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    display: block;
+  }
+  
+  h3, .equation-display, .discr, .roots, .viete {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  @media (max-width: 400px) {
+    .inputA, .inputB, .inputC {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .button-button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  

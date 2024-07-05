@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Quad.css';
+import './Quad2.css';
 
 function Quad() {
 
@@ -15,14 +15,33 @@ function Quad() {
   const [x2, setX2] = useState('');
 
   const findx = () => {
-    setIsHidden(false)
+    const a = parseFloat(inputAValue);
+    const b = parseFloat(inputBValue);
+    const c = parseFloat(inputCValue);
 
-  }
+    const discriminant = b**2 - 4*a*c;
+    const x1Value = (-b - Math.sqrt(discriminant)) / (2*a);
+    const x2Value = (-b + Math.sqrt(discriminant)) / (2*a);
+
+    setDisplayAValue(a);
+    setDisplayBValue(b);
+    setDisplayCValue(c);
+    setDiscr(discriminant);
+    setX1(x1Value);
+    setX2(x2Value);
+    setIsHidden(false);
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      findx();
+    }
+  };
     
   return (
-    <div>
+    <div className='container'>
       <div className='header'>
-        <h2>Calculate roots</h2>
+        <h3>Calculate roots of a quadratic equation:</h3>
       </div>
 
       <div>
@@ -32,6 +51,7 @@ function Quad() {
           placeholder='a'
           value={inputAValue}
           onChange={(e) => setInputAValue(e.target.value)}
+          onKeyDown={handleKeyDown}
         ></input>x<sup>2</sup> + 
         
         <input 
@@ -40,6 +60,7 @@ function Quad() {
           placeholder='b'
           value={inputBValue}
           onChange={(e) => setInputBValue(e.target.value)}
+          onKeyDown={handleKeyDown}
         ></input>x + 
         
         <input 
@@ -48,12 +69,12 @@ function Quad() {
           placeholder='c'
           value={inputCValue}
           onChange={(e) => setInputCValue(e.target.value)}
+          onKeyDown={handleKeyDown}
         ></input> = 0
       </div>
 
       <div className='button'>
         <button
-          // ref={buttonRef}
           className='button-button'
           onClick={() => findx()}
         >Find x</button>
@@ -63,9 +84,13 @@ function Quad() {
         {displayAValue}x<sup>2</sup> + {displayBValue}x + {displayCValue} = 0
       </div>
 
+      <br />
+
       <div className={isHidden ? 'discr hidden' : 'discr visible'}>
-        Discr = 
+        D = {discr}
       </div>
+
+      <br />
 
       <div className={isHidden ? 'roots hidden' : 'roots visible'}>
         x<sub>1</sub> = {x1}
@@ -73,11 +98,11 @@ function Quad() {
         x<sub>2</sub> = {x2}
       </div>
 
-      <div className={isHidden ? 'viete hidden' : 'viete visible'}>
+      {/* <div className={isHidden ? 'viete hidden' : 'viete visible'}>
         x<sub>1</sub>x<sub>2</sub> = {displayCValue}
         <br />
         x<sub>1</sub> + x<sub>2</sub> = {displayBValue !== 'b' ? displayBValue*(-1) : '-b'}
-      </div>
+      </div> */}
     </div>
   )
 }

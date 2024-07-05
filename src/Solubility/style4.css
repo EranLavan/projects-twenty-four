@@ -1,0 +1,91 @@
+.app-container.style4 table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    /* table-layout: fixed; */
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-container.style4 table thead tr {
+    background-color: #3498db;
+    color: #ffffff;
+  }
+  
+  .app-container.style4 table th, .app-container.style4 table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .app-container.style4 table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .app-container.style4 table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .app-container.style4 table tbody tr:hover {
+    background-color: #d1ecf1;
+    color: #333333;
+  }
+  
+  .app-container.style4 .clickable {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .app-container.style4 .clickable:hover {
+    background-color: #9fd4ec;
+    color: #1abc9c;
+  }
+
+  .app-container.style4 .equal-width {
+    width: 40px;
+  }
+  
+  .app-container.style4 .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .app-container.style4 .tooltip .tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; 
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-weight: bold;
+    white-space: pre-line; 
+  }
+  
+  .app-container.style4 .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .app-container.style4 .tooltip .tooltip-text::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #2c3e50 transparent transparent transparent;
+  }
+  
