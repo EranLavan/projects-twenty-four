@@ -1,0 +1,15 @@
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+h2 {
+  margin: 0px;
+}
+
+div {
+  padding: 8px;
+}
