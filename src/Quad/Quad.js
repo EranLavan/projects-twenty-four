@@ -1,26 +1,13 @@
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-// RE_WRITE THE STYLES FROM SCRATCH!!!
-
-
 import React, { useState } from 'react';
-import styles from './Quad2.module.css';
+import styles1 from './Quad.module.css';
+import styles2 from './Quad1.module.css';
 
 function Quad() {
+
+  const [styles, setStyles] = useState(styles2);
+  const toggleStyle = () => {
+    setStyles(styles === styles1 ? styles2 : styles1)
+  }
 
   const [isHidden, setIsHidden] = useState(true);
   const [inputAValue, setInputAValue] = useState('');
@@ -59,11 +46,16 @@ function Quad() {
     
   return (
     <div className={styles.container}>
+      <label className={styles.switch}>
+        <input type='checkbox' onChange={toggleStyle} />
+        <span className={styles.sliderRound}></span>
+      </label>
+
       <div className={styles.header}>
         <h3>Calculate roots of a quadratic equation:</h3>
       </div>
 
-      <div>
+      <div className={styles.inputContainer}>
         <input 
           className={styles.inputA}
           type='number'
@@ -117,11 +109,6 @@ function Quad() {
         x<sub>2</sub> = {x2}
       </div>
 
-      {/* <div className={isHidden ? 'viete hidden' : 'viete visible'}>
-        x<sub>1</sub>x<sub>2</sub> = {displayCValue}
-        <br />
-        x<sub>1</sub> + x<sub>2</sub> = {displayBValue !== 'b' ? displayBValue*(-1) : '-b'}
-      </div> */}
     </div>
   )
 }

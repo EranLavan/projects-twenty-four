@@ -25,7 +25,7 @@ import {
 	} from "./utils";
 
 export const Calendar = () => {
-	const [currentDate, setCurrentDate] = useState(new Date(2023, 2, 12));
+	const [currentDate, setCurrentDate] = useState(new Date(2024, 6, 12));
 	const [events, setEvents] = useState(MOCKAPPS);
 	const dragDateRef = useRef();
 	const dragindexRef = useRef();

@@ -1,18 +1,42 @@
 import React, { useState } from 'react';
 import Tooltip from './Tooltip';
-import './style1.css'
-import './style2.css'
-import './style3.css'
-import './style4.css'
-import './style5.css'
-import './style6.css'
+import style1 from './style1.module.css';
+import style2 from './style2.module.css';
+import style3 from './style3.module.css';
+import style4 from './style4.module.css';
+import style5 from './style5.module.css';
+import style6 from './style6.module.css';
 
 function SolubilityDraft() {
 
-  const [style, setStyle] = useState('style4');
+  const [style, setStyle] = useState(style1);
+  const [selectedStyle, setSelectedStyle] = useState('style1');
 
   const handleStyleChange = (event) => {
-    setStyle(event.target.value);
+    const selectedStyle = event.target.value;
+    switch (selectedStyle) {
+      case 'style1':
+        setStyle(style1);
+        break;
+      case 'style2':
+        setStyle(style2);
+        break;
+      case 'style3':
+        setStyle(style3);
+        break;
+      case 'style4':
+        setStyle(style4);
+        break;
+      case 'style5':
+        setStyle(style5);
+        break;
+      case 'style6':
+        setStyle(style6);
+        break;
+      default:
+        setStyle(style4);
+    }
+    console.log(style);
   };
 
   const data = [
@@ -3147,12 +3171,17 @@ function SolubilityDraft() {
     }
   };
 
+  console.log(style)
+
   return (
 
-    <div className={`app-container ${style}`}>
+    <div className={style.appContainer}>
 
     <p>Choose your style:</p>
-    <select value={style} onChange={handleStyleChange}>
+    <select 
+      value={selectedStyle} 
+      onChange={handleStyleChange}
+    >
         <option value="style1">Style 1</option>
         <option value="style2">Style 2</option>
         <option value="style3">Style 3</option>
@@ -3199,123 +3228,123 @@ function SolubilityDraft() {
           {data.map((row) => (
             <tr key={row.id}>
               {/* <td>{row.anion.value}</td> */}
-              <td className="anion-column" dangerouslySetInnerHTML={{ __html: row.anion.value }}></td>
+              <td className={style.anionColumn} dangerouslySetInnerHTML={{ __html: row.anion.value }}></td>
               
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.h.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.h.url)}>
                 <Tooltip text={row.h.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.h.value }}></span>
                 </Tooltip>
               </td>
               
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.li.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.li.url)}>
                 <Tooltip text={row.li.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.li.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.na.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.na.url)}>
                 <Tooltip text={row.na.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.na.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.k.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.k.url)}>
                 <Tooltip text={row.k.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.k.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.nh4.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.nh4.url)}>
                 <Tooltip text={row.nh4.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.nh4.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.ba.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.ba.url)}>
                 <Tooltip text={row.ba.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.ba.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.ca.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.ca.url)}>
                 <Tooltip text={row.ca.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.ca.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.mg.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.mg.url)}>
                 <Tooltip text={row.mg.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.mg.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.sr.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.sr.url)}>
                 <Tooltip text={row.sr.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.sr.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.al.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.al.url)}>
                 <Tooltip text={row.al.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.al.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.cr.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.cr.url)}>
                 <Tooltip text={row.cr.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.cr.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.fe2.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.fe2.url)}>
                 <Tooltip text={row.fe2.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.fe2.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.fe3.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.fe3.url)}>
                 <Tooltip text={row.fe3.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.fe3.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.mn.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.mn.url)}>
                 <Tooltip text={row.mn.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.mn.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.zn.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.zn.url)}>
                 <Tooltip text={row.zn.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.zn.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.ag.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.ag.url)}>
                 <Tooltip text={row.ag.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.ag.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.hg.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.hg.url)}>
                 <Tooltip text={row.hg.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.hg.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.pb.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.pb.url)}>
                 <Tooltip text={row.pb.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.pb.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.sn.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.sn.url)}>
                 <Tooltip text={row.sn.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.sn.value }}></span>
                 </Tooltip>
               </td>
 
-              <td className="equal-width clickable" onClick={() => handleCellClick(row.cu.url)}>
+              <td className={`${style.clickable} ${style.equalWidth}`} onClick={() => handleCellClick(row.cu.url)}>
                 <Tooltip text={row.cu.tooltip}>
                   <span dangerouslySetInnerHTML={{ __html: row.cu.value }}></span>
                 </Tooltip>
