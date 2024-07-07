@@ -55,7 +55,7 @@ body {
   margin-top: 20px;
 }
 
-.button-button {
+.buttonButton {
   padding: 10px 20px;
   border: none;
   background-color: #007bff;
@@ -66,22 +66,22 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.button-button:hover {
+.buttonButton:hover {
   background-color: #0056b3;
 }
 
-.button-button:active {
+.buttonButton:active {
   opacity: 0.4;
 }
 
-.equation-display, .discr, .roots, .viete {
+.equationDisplay, .discr, .roots, .viete {
   background-color: #e9ecef;
   border-radius: 5px;
   padding: 10px;
   margin-top: 10px;
 }
 
-h3, .equation-display, .discr, .roots, .viete {
+h3, .equationDisplay, .discr, .roots, .viete {
   font-size: 18px;
   font-weight: normal;
   line-height: 1.5;
@@ -93,7 +93,7 @@ h3, .equation-display, .discr, .roots, .viete {
     margin: 5px 0;
   }
 
-  .button-button {
+  .buttonButton {
     width: 100%;
     margin-top: 10px;
   }

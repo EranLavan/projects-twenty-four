@@ -9,10 +9,10 @@
   .input {
     margin: 0 10px;
     padding: 5px;
-    font-size: 16px;
+    font-size: 26px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 50px;
+    width: 20px;
   }
   
   .input:focus {

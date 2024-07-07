@@ -1,5 +1,24 @@
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+// RE_WRITE THE STYLES FROM SCRATCH!!!
+
+
 import React, { useState } from 'react';
-import './Quad2.css';
+import styles from './Quad2.module.css';
 
 function Quad() {
 
@@ -39,14 +58,14 @@ function Quad() {
   };
     
   return (
-    <div className='container'>
-      <div className='header'>
+    <div className={styles.container}>
+      <div className={styles.header}>
         <h3>Calculate roots of a quadratic equation:</h3>
       </div>
 
       <div>
         <input 
-          className='inputA'
+          className={styles.inputA}
           type='number'
           placeholder='a'
           value={inputAValue}
@@ -55,7 +74,7 @@ function Quad() {
         ></input>x<sup>2</sup> + 
         
         <input 
-          className='inputB'
+          className={styles.inputB}
           type='number'
           placeholder='b'
           value={inputBValue}
@@ -64,7 +83,7 @@ function Quad() {
         ></input>x + 
         
         <input 
-          className='inputC'
+          className={styles.inputC}
           type='number'
           placeholder='c'
           value={inputCValue}
@@ -73,26 +92,26 @@ function Quad() {
         ></input> = 0
       </div>
 
-      <div className='button'>
+      <div className={styles.button}>
         <button
-          className='button-button'
+          className={styles.buttonButton}
           onClick={() => findx()}
         >Find x</button>
       </div>
 
-      <div className={isHidden ? 'equation-display hidden' : 'equation-display visible'}>
+      <div className={isHidden ? styles.equationDisplay && styles.hidden : styles.equationDisplay && styles.visible}>
         {displayAValue}x<sup>2</sup> + {displayBValue}x + {displayCValue} = 0
       </div>
 
       <br />
 
-      <div className={isHidden ? 'discr hidden' : 'discr visible'}>
+      <div className={isHidden ? styles.discr && styles.hidden : styles.discr && styles.visible}>
         D = {discr}
       </div>
 
       <br />
 
-      <div className={isHidden ? 'roots hidden' : 'roots visible'}>
+      <div className={isHidden ? styles.roots && styles.hidden : styles.roots && styles.visible}>
         x<sub>1</sub> = {x1}
         <br /> 
         x<sub>2</sub> = {x2}

@@ -1,0 +1,13 @@
+.main-image {
+  width: 300px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.main-image:hover {
+  opacity: 0.9;
+}
+
+.main-image:active {
+  opacity: 0.8;
+}

@@ -8,6 +8,7 @@ import Quad from './Quad/Quad.js';
 import Solubility from './Solubility/SolubilityDraft.js';
 import RandomizerA from './Randomizer/RandomizerA.js';
 import Edge from './Edge/Edge.js';
+import Calendar from './Calendar/index.js'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           <Route path="/quad" element={<Quad />} />
           <Route path="/solubility" element={<Solubility />} />
           <Route path="/randomizer" element={<RandomizerA />} />
-          <Route path="/edge" element={<Edge />} />
+          <Route path="/edge/*" element={<Edge />} />
+          <Route path='/calendar' element={<Calendar />} />
         
       </Routes>
     </Router>
