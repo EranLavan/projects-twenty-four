@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './RndAStyleA.css';
+import styles from './RndAStyleB.module.css';
 
 function RandomizerA() {
 
@@ -18,12 +18,12 @@ function RandomizerA() {
   }
 
   return (
-    <div>
-      <div className='main'>
+    <div className={styles.container}>
+      <div className={styles.main}>
         Random number from 
         <input 
           ref={inputRef}
-          className='input'
+          className={styles.input}
           type='number'
           placeholder='x'
           // onKeyDown={handleKeyDown}
@@ -33,7 +33,7 @@ function RandomizerA() {
         </input> to 
 
         <input 
-          className='input'
+          className={styles.input}
           type='number'
           placeholder='y'
           value={inputTwo}
@@ -42,9 +42,9 @@ function RandomizerA() {
         </input>
       </div>
 
-      <button className='button' onClick={() => randomize()}>Generate!</button>
+      <button className={styles.button} onClick={() => randomize()}>Generate!</button>
 
-      <div className='result'>
+      <div className={styles.result}>
         <h1>{result}</h1>
       </div>
     </div>

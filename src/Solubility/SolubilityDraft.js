@@ -1,43 +1,48 @@
 import React, { useState } from 'react';
 import Tooltip from './Tooltip';
-import style1 from './style1.module.css';
-import style2 from './style2.module.css';
-import style3 from './style3.module.css';
-import style4 from './style4.module.css';
-import style5 from './style5.module.css';
-import style6 from './style6.module.css';
+// import style1 from './style1.module.css';
+// import style2 from './style2.module.css';
+import style from './style3.module.css';
+// import style3 from './style3.module.css';
+// import style4 from './style4.module.css';
+// import style5 from './style5.module.css';
+// import style6 from './style6.module.css';
+
+// NOTE: all these different stylings and the option for the user
+// to choose them personally works well with general CSS, but doesn't
+// fit well with module CSS, so as now we have only one default style
 
 function SolubilityDraft() {
 
-  const [style, setStyle] = useState(style1);
-  const [selectedStyle, setSelectedStyle] = useState('style1');
+  // const [style, setStyle] = useState(style1);
+  // const [selectedStyle, setSelectedStyle] = useState('style2');
 
-  const handleStyleChange = (event) => {
-    const selectedStyle = event.target.value;
-    switch (selectedStyle) {
-      case 'style1':
-        setStyle(style1);
-        break;
-      case 'style2':
-        setStyle(style2);
-        break;
-      case 'style3':
-        setStyle(style3);
-        break;
-      case 'style4':
-        setStyle(style4);
-        break;
-      case 'style5':
-        setStyle(style5);
-        break;
-      case 'style6':
-        setStyle(style6);
-        break;
-      default:
-        setStyle(style4);
-    }
-    console.log(style);
-  };
+  // const handleStyleChange = (event) => {
+  //   const selectedStyle = event.target.value;
+  //   switch (selectedStyle) {
+  //     case 'style1':
+  //       setStyle(style1);
+  //       break;
+  //     case 'style2':
+  //       setStyle(style2);
+  //       break;
+  //     case 'style3':
+  //       setStyle(style3);
+  //       break;
+  //     case 'style4':
+  //       setStyle(style4);
+  //       break;
+  //     case 'style5':
+  //       setStyle(style5);
+  //       break;
+  //     case 'style6':
+  //       setStyle(style6);
+  //       break;
+  //     default:
+  //       setStyle(style4);
+  //   }
+  //   console.log(style);
+  // };
 
   const data = [
 
@@ -3177,7 +3182,7 @@ function SolubilityDraft() {
 
     <div className={style.appContainer}>
 
-    <p>Choose your style:</p>
+    {/* <p>Choose your style:</p>
     <select 
       value={selectedStyle} 
       onChange={handleStyleChange}
@@ -3188,12 +3193,12 @@ function SolubilityDraft() {
         <option value="style4">Style 4</option>
         <option value="style5">Style 5</option>
         <option value="style6">Style 6</option>
-    </select>
+    </select> */}
 
       <h1 style={{ textAlign: 'center' }}>
         Clickable Solubility Chart
       </h1>
-      <h3 style={{ textAlign: 'center' }}>(Just click to see the pictures of the substance!)</h3>
+      <h3 style={{ textAlign: 'center', marginBottom: '10px' }}>(Just click to see the pictures of the substance!)</h3>
 
       <table
         border="1"

@@ -89,16 +89,12 @@
     border-color: #555 transparent transparent transparent;
   } */
   
-/* style1.module.css */
-
-/* Container styling */
 .appContainer {
   padding: 20px;
   background-color: #f9f9f9;
   font-family: Arial, sans-serif;
 }
 
-/* Table styling */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -118,14 +114,13 @@ tbody td {
   cursor: pointer;
 }
 
-/* Class for cells with anion values */
 .anionColumn {
   background-color: #e7f3fe;
   font-weight: bold;
-  width: auto; /* Ensures the first column width is dynamic */
+  width: auto; 
 }
 
-/* Classes for making cells clickable and equal width */
+
 .clickable {
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -136,10 +131,10 @@ tbody td {
 }
 
 .equalWidth {
-  width: calc((100% - auto) / 20); /* 20 columns total */
+  width: calc((100% - auto) / 20); 
 }
 
-/* Highlight row and cell on hover */
+
 tbody tr:hover {
   background-color: #f9f9f9;
 }
@@ -148,7 +143,7 @@ tbody td:hover {
   background-color: #e1f5fe;
 }
 
-/* Tooltip styling */
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -164,9 +159,9 @@ tbody td:hover {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%; /* Position the tooltip above the text */
+  bottom: 125%; 
   left: 50%;
-  margin-left: -60px; /* Use half of the tooltip width to center it */
+  margin-left: -60px; 
   opacity: 0;
   transition: opacity 0.3s;
 }

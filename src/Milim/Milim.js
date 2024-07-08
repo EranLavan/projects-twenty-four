@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import styles from './Milim.module.css';
 import './Milim.css';
 import words from './words.js'
 
@@ -42,17 +43,17 @@ function Milim() {
       setLanguage('english')
   }
     
-  const correctAnswerEng = `Correct! '${words[word].english}' is <span id='orange'>${words[word].hebrew}</span>.
+  const correctAnswerEng = `Correct! '${words[word].english}' is <span className='orange'>${words[word].hebrew}</span>.
   <span id='pronunciation'>Show pronunciation</span>`;
 
-  const correctAnswerRus = `Верно! '${words[word].russian}' это <span id='orange'>${words[word].hebrew}</span>.
+  const correctAnswerRus = `Верно! '${words[word].russian}' это <span className={styles.orange}>${words[word].hebrew}</span>.
   <span id='pronunciation'>Показать произношение</span>`;
 
-  const incorrectAnswerEng = `<span id='orange'>${inputValue}</span> was incorrect. 
-  Correct answer: <span id='orange'>${words[word].hebrew}</span>. <br>Try next word.`;
+  const incorrectAnswerEng = `<span className={styles.orange}>${inputValue}</span> was incorrect. 
+  Correct answer: <span className={styles.orange}>${words[word].hebrew}</span>. <br>Try next word.`;
 
-  const incorrectAnswerRus = `<span id='orange'>${inputValue}</span> - это неправильный ответ. 
-  Правильный ответ: <span id='orange'>${words[word].hebrew}</span>. <br>Попробуйте следующее слово.`
+  const incorrectAnswerRus = `<span className={styles.orange}>${inputValue}</span> - это неправильный ответ. 
+  Правильный ответ: <span className={styles.orange}>${words[word].hebrew}</span>. <br>Попробуйте следующее слово.`
 
   const checkAnswer = () => {
 
@@ -197,10 +198,10 @@ function Milim() {
 
   return (
   <>
-    <div className='container'>
+    <div className={styles.container}>
       { showFinalResults ? (
       <>
-        <div className='milim-results'>
+        <div className={styles.milimResults}>
           <h2>
           {
           language === 'english' ? 
@@ -215,8 +216,8 @@ function Milim() {
           }</h2>
         </div>
 
-      <div className='center'>
-        <button className='click-button' onClick={() => restart()}>
+      <div className={styles.center}>
+        <button className={styles.clickButton} onClick={() => restart()}>
           {
           language === 'english' ?
           `Try again!` :
@@ -228,7 +229,7 @@ function Milim() {
 
       ) : (
     <>
-      <div className="Milim">
+      <div className={styles.milim}>
 
         <h2>
         {
@@ -236,7 +237,7 @@ function Milim() {
         `Translate the following word to Hebrew:` :
         `Переведите слово на иврит:` 
         }</h2>
-        <h1 className='word'>
+        <h1 className={styles.word}>
         {
         language === 'english' ?
         `${words[word].english}` :
@@ -247,7 +248,7 @@ function Milim() {
         <div>
           <input 
             ref={inputRef}
-            className='input'
+            className={styles.input}
             type='text'
             placeholder='הזן את המילה בעברית'
             onKeyDown={handleKeyDown}
@@ -256,10 +257,10 @@ function Milim() {
           </input>
         </div>
 
-        <div className='button-div'>
+        <div className={styles.buttonDiv}>
           <button 
             ref={buttonRef} 
-            className='click-button' 
+            className={styles.clickButton}
             onClick={() => checkAnswer()}
           >
             {
@@ -270,7 +271,7 @@ function Milim() {
           </button>
 
           <button
-            className='click-button'
+            className={styles.clickButton}
             onClick={() => skip()}
           >
           {
@@ -281,7 +282,7 @@ function Milim() {
           </button>
 
           <button 
-            className='click-button'
+            className={styles.clickButton}
             onClick={() => stopQuiz()}
           >
           {
@@ -292,19 +293,19 @@ function Milim() {
         </button>
         </div>
 
-        <h3 className='h3'>
+        <h3 className={styles.h3}>
         {
         language === 'english' ?
         `Current score: ${score}` :
         `Текущий счёт: ${score}`
         }</h3>
-        <div className='one-line-div'>
-          <div className='h3' id='message' onClick={() => pronounce()}>
+        <div className={styles.oneLineDiv}>
+          <div className={styles.h3 && styles.message} onClick={() => pronounce()}>
             {message.split('<br />').map((line, index) => (
               <div key={index} dangerouslySetInnerHTML={{ __html: line }} />
             ))}
           </div>
-          <div id='hidden'> 
+          <div className={styles.hidden}> 
             {
               showPronunciation 
               ? 
@@ -328,9 +329,9 @@ function Milim() {
   )}
     </div>
 
-    <div className="language-switch">
+    <div className={styles.languageSwitch}>
         <button 
-          className="language-switch-button" 
+          className={styles.languageSwitchButton} 
           onClick={() => changeLanguage()}>
           {
             language==='english' 

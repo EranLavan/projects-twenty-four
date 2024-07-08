@@ -1,4 +1,4 @@
-.app-container.style3 table {
+/* .app-container.style3 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
@@ -85,4 +85,93 @@
     border-style: solid;
     border-color: #333 transparent transparent transparent;
   }
+ */
 
+ .appContainer {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 90%;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+select {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+td {
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+td:hover {
+  background-color: #f1f1f1;
+}
+
+tr:hover {
+  background-color: #e0f7fa;
+}
+
+.anionColumn {
+  width: auto;
+  font-weight: bold;
+  background-color: #e3f2fd;
+}
+
+.equalWidth {
+  width: calc((100% - 150px) / 20); /* Adjusted to make columns fit evenly */
+}
+
+.clickable:hover {
+  background-color: #9fbbad;
+}
+
+table td {
+  position: relative;
+}
+
+table td:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -5000px;
+  right: -5000px;
+  background-color: #d1e7dd;
+  z-index: -1;
+}
+
+table td:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -5000px;
+  bottom: -5000px;
+  background-color: #d1e7dd;
+  z-index: -1;
+}
