@@ -29,6 +29,7 @@
 .clickButton {
     margin-right: 5px;
     margin-left: 5px;
+    margin-bottom: 5px;
     background-color: rgb(17, 17, 133);
     width: auto;
     border: none;
