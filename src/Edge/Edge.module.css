@@ -24,9 +24,24 @@
   opacity: 0.8;
 } */
 
+.back {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+
+.back:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.back:active {
+  opacity: 0.4;
+}
+
 .header {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 10px;
   font-weight: 500;
 }
@@ -50,9 +65,14 @@
   transform: scale(1.05);
 }
 
-.mainImage {
-  width: 100%;
-  height: auto;
+.mainImage1 {
+  height: 200px;
+  border-radius: 8px;
+  transition: opacity 0.2s;
+}
+
+.mainImage2 {
+  height: 200px;
   border-radius: 8px;
   transition: opacity 0.2s;
 }

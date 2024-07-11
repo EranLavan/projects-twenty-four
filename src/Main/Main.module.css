@@ -1,0 +1,84 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  position: relative; 
+  z-index: 1; 
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-vector/chrome-hex-pattern-background-gradient_78370-3429.jpg?t=st=1720725827~exp=1720729427~hmac=1f9cdf4bc15733a85a7894b1f9f40f1a62f2cedbaa09fe20664fdf7b1f003304&w=740'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  opacity: 0.3;
+  z-index: -1; 
+}
+
+  
+  .header {
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 2.5em;
+    margin-bottom: 0px;
+  }
+
+  .nameCaption {
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+  }
+  
+  .socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .icon {
+    font-size: 2em;
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  .icon:hover {
+    color: #0077b5;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+    width: 70%; 
+    margin: 0 auto; 
+    text-align: center;
+  }
+  
+  .projectLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .project {
+    padding: 20px;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .project:hover {
+    background-color: rgba(39, 86, 129, 0.1);
+  }
+  
