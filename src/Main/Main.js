@@ -36,7 +36,7 @@ function Main() {
         </Link>
         <Link to="/quad" className={styles.projectLink}>
           <div className={styles.project}>
-            <h2>Quadratic Equation Solver</h2>
+            <h2>Quadratic Equation</h2>
           </div>
         </Link>
         <Link to="/randomizer" className={styles.projectLink}>

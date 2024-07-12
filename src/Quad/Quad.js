@@ -92,13 +92,13 @@ function Quad() {
       </div>
 
       <div className={isHidden ? styles.equationDisplay && styles.hidden : styles.equationDisplay && styles.visible}>
-        {displayAValue}x<sup>2</sup> + {displayBValue}x + {displayCValue} = 0
+        {isNaN(displayAValue) ? '?' : displayAValue}x<sup>2</sup> + {isNaN(displayBValue) ? '?' : displayBValue}x + {isNaN(displayCValue) ? '?' : displayCValue} = 0
       </div>
 
       <br />
 
       <div className={isHidden ? styles.discr && styles.hidden : styles.discr && styles.visible}>
-        D = {discr}
+        D = {isNaN(discr) ? '?' : discr}
       </div>
 
       <br />

@@ -231,19 +231,19 @@ function Milim() {
     <>
       <div className={styles.milim}>
 
-        <h2>
+        <h2 className={styles.header}>
         {
         language === 'english' ?
         `Translate the following word to Hebrew:` :
         `Переведите слово на иврит:` 
         }</h2>
-        <h1 className={styles.word}>
+        <h2 className={styles.word}>
         {
         language === 'english' ?
         `${words[word].english}` :
         `${words[word].russian}`
         }
-        </h1>
+        </h2>
 
         <div>
           <input 
