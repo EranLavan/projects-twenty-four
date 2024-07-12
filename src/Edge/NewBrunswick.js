@@ -4,9 +4,9 @@ import styles from './Provinces.module.css';
 function NewBrunswick() {
   return (
     <div className={styles.container}>
-      <h2 className={styles.header}>
+      <h1 className={styles.header}>
         New Brunswick
-      </h2>
+      </h1>
 
       <div className={styles.innerContainer}>
         <div className={styles.linkpic}>

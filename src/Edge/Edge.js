@@ -29,9 +29,9 @@ function Edge() {
 
       {isRootPath && (
         <>
-      <a href='./'>
+      {/* <a href='./'>
         <p className={styles.back}>Back to top</p>
-      </a>
+      </a> */}
 
       <h2 className={styles.header}>
         Places you would rather be

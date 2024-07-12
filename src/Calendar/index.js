@@ -19,8 +19,8 @@ import {
 	getMonthYear, 
 	nextMonth, 
 	prevMonth, 
-	range, 
-	sortDays, 
+	// range, 
+	// sortDays, 
     getSortedDays
 	} from "./utils";
 
@@ -89,13 +89,13 @@ const drop = (ev) => {
                 <ion-icon 
                     onClick={() => prevMonth(currentDate, setCurrentDate)} 
                     name="arrow-back-circle-outline"
-                ></ion-icon>
+                >&#8592;</ion-icon>
 		{getMonthYear(currentDate)}
 
                 <ion-icon 
                     onClick={() => nextMonth(currentDate, setCurrentDate)}
                     name="arrow-forward-circle-outline"
-                ></ion-icon>
+                >&#8594;</ion-icon>
 	        </DateControls>
 
             <SevenColGrid>
@@ -219,8 +219,8 @@ const Portal = ({ title, date, handleDelete, handlePortalClose }) => {
         <PortalWrapper>
             <h2>{title}</h2>
             <p>{date.toDateString()}</p>
-            <ion-icon onClick={handleDelete} name="trash-outline"></ion-icon>
-            <ion-icon onClick={handlePortalClose} name="close-outline"></ion-icon>
+            <ion-icon onClick={handleDelete} name="trash-outline">Delete</ion-icon>
+            <ion-icon onClick={handlePortalClose} name="close-outline">&#10005;</ion-icon>
         </PortalWrapper>
     )
 }

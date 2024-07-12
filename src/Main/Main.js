@@ -4,19 +4,6 @@ import styles from './Main.module.css';
 import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
 
 function Main() {
-  // return (
-  //   <div>
-  //     Here's the main page
-  //     <br />
-
-  //     <a href='./#/milim'>Milim</a><br />
-  //     <a href='./#/solubility'>Solubility Table</a><br />
-  //     <a href='./#/quad'>Quadratic Equation root calculator</a><br />
-  //     <a href='./#/randomizer'>Randomizer</a><br />
-  //     <a href='./#/edge'>On the Edge of the World</a><br />
-  //     <a href='./#/calendar'>Calendar</a><br />
-  //   </div>
-  // )
 
   return (
     <div className={styles.container}>
@@ -67,6 +54,10 @@ function Main() {
             <h2>Places</h2>
           </div>
         </Link>
+      </div>
+
+      <div className={styles.bgAttribution}>
+        <a href='https://www.freepik.com/free-vector/chrome-hex-pattern-background-gradient_79007664.htm#fromView=search&page=2&position=9&uuid=9f4ef5dd-5bd0-4d90-baf4-1713374c292c'>Background</a> by <a href='https://www.freepik.com/author/juicy-fish'>JuicyFish</a> on Freepik
       </div>
     </div>
   );

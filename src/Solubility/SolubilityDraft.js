@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Tooltip from './Tooltip';
 // import style1 from './style1.module.css';
 // import style2 from './style2.module.css';
@@ -3176,7 +3176,7 @@ function SolubilityDraft() {
     }
   };
 
-  console.log(style)
+  // console.log(style)
 
   return (
 

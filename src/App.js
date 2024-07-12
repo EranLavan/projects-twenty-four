@@ -16,7 +16,7 @@ function App() {
       <Routes>
         
           <Route path="/" element={<Main />} />
-          <Route path="/Milim" element={<Milim />} />
+          <Route path="/milim" element={<Milim />} />
           <Route path="/tests" element={<Tests />} />
           <Route path="/quad" element={<Quad />} />
           <Route path="/solubility" element={<Solubility />} />

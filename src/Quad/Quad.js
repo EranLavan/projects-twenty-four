@@ -104,9 +104,9 @@ function Quad() {
       <br />
 
       <div className={isHidden ? styles.roots && styles.hidden : styles.roots && styles.visible}>
-        x<sub>1</sub> = {x1}
+        x<sub>1</sub> = {isNaN(x1) ? 'No roots' : x1}
         <br /> 
-        x<sub>2</sub> = {x2}
+        x<sub>2</sub> = {isNaN(x2) ? 'No roots' : x2}
       </div>
 
     </div>
