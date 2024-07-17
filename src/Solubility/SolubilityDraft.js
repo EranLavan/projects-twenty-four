@@ -1490,31 +1490,31 @@ function SolubilityDraft() {
     h: { 
       value: 'S', 
       url: '',
-      tooltip: ''
+      tooltip: 'HNO<sub>3</sub>\nNitric Acid\nStrong acid'
     },
 
     li: { 
       value: 'S', 
       url: '',
-      tooltip: '' 
+      tooltip: 'LiNO<sub>3</sub>\nLithium nitrate\nSoluble' 
     },
 
     na: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'LiNO<sub>3</sub>\nLithium nitrate\nSoluble'
     },
 
     k: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'LiNO<sub>3</sub>\nLithium nitrate\nSoluble'
     },
 
     nh4: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'NH<sub>4</sub>NO<sub>3</sub>\nLithium nitrate\nSoluble'
     },
 
     ba: {
@@ -1580,7 +1580,7 @@ function SolubilityDraft() {
     ag: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'AgNO<sub>3</sub>\nSilver nitrate\nSoluble'
     },
     
     hg: {
