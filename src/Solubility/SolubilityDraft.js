@@ -1749,122 +1749,122 @@ function SolubilityDraft() {
 
     h: { 
       value: 'S', 
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=phosphoric+acid&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'H<sub>3</sub>PO<sub>4</sub>\nPhosphoric Acid\nRelatively weak acid'
     },
 
     li: { 
       value: 'I', 
-      url: '',
-      tooltip: '' 
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=lithium+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Li<sub>3</sub>PO<sub>4</sub>\nLithium Phosphate\nRelatively insoluble' 
     },
 
     na: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=sodium+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Na<sub>3</sub>PO<sub>4</sub>\nSodium Phosphate\nSoluble'
     },
 
     k: {
       value: 'S',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=potassium+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'K<sub>3</sub>PO<sub>4</sub>\nPotassium Phosphate\nSoluble'
     },
 
     nh4: {
       value: '–',
       url: '',
-      tooltip: ''
+      tooltip: 'Hydrolyzes into HPO<sub>4</sub><sup>2-</sup> almost completely'
     },
 
     ba: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=barium+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Ba<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nBarium Phosphate\nRelatively insoluble'
     },
 
     ca: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=calcium+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nCalcium Phosphate\nRelatively insoluble'
     },
 
     mg: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=magnesium+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Mg<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nMagnesium Phosphate\nRelatively insoluble'
     },
     
     sr: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=strontium+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Sr<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nStrontium Phosphate\nRelatively insoluble'
     },
     
     al: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=aluminium+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'AlPO<sub>4</sub>\nAluminium Phosphate\nRelatively insoluble'
     },
     
     cr: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=chromium+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'CrPO<sub>4</sub>\nChromium (III) Phosphate\nRelatively insoluble'
     },
     
     fe2: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=ferrous+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Fe<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nFerrous Phosphate\nRelatively insoluble'
     },
     
     fe3: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=ferric+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'FePO<sub>4</sub>\nFerric Phosphate\nRelatively insoluble'
     },
     
     mn: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=manganese+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Mn<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nManganese Phosphate\nRelatively insoluble'
     },
     
     zn: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=zinc+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Zn<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nZinc Phosphate\nRelatively insoluble'
     },
     
     ag: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=silver+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Ag<sub>3</sub>PO<sub>4</sub>\nSilver Phosphate\nRelatively insoluble'
     },
     
     hg: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=mercury+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Hg<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nMercury Phosphate\nRelatively insoluble'
     },
     
     pb: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=lead+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Pb<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nLead Phosphate\nRelatively insoluble'
     },
     
     sn: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=tin+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Sn<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nTin (II) Phosphate\nRelatively insoluble'
     },
     
     cu: {
       value: 'I',
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=copper+phosphate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'Cu<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>\nCopper (II) Phosphate\nRelatively insoluble'
     }
   },
 
