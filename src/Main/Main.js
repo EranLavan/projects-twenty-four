@@ -59,6 +59,10 @@ function Main() {
       <div className={styles.bgAttribution}>
         <a href='https://www.freepik.com/free-vector/chrome-hex-pattern-background-gradient_79007664.htm#fromView=search&page=2&position=9&uuid=9f4ef5dd-5bd0-4d90-baf4-1713374c292c'>Background</a> by <a href='https://www.freepik.com/author/juicy-fish'>JuicyFish</a> on Freepik
       </div>
+
+      <div className={styles.bgAttribution}>
+        <a href=''></a>
+      </div>
     </div>
   );
 }

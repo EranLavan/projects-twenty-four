@@ -8,7 +8,7 @@ import Quad from './Quad/Quad.js';
 import Solubility from './Solubility/SolubilityDraft.js';
 import RandomizerA from './Randomizer/RandomizerA.js';
 import Edge from './Edge/Edge.js';
-import Calendar from './Calendar/index.js'
+import Calendar from './Calendar/index.js';
 
 function App() {
   return (
