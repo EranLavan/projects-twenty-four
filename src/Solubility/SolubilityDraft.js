@@ -1880,121 +1880,121 @@ function SolubilityDraft() {
     h: { 
       value: 'S', 
       url: '',
-      tooltip: ''
+      tooltip: 'H<sub>3</sub>PO<sub>4</sub>\nPhosphoric acid\nRelatively weak acid'
     },
 
     li: { 
       value: '?', 
       url: '',
-      tooltip: '' 
+      tooltip: 'Compound does not exist' 
     },
 
     na: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Na<sub>2</sub>HPO<sub>4</sub>\nSodium Hydrophosphate\nSoluble'
     },
 
     k: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'K<sub>2</sub>HPO<sub>4</sub>\nPotassium Hydrophosphate\nSoluble'
     },
 
     nh4: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(NH<sub>4</sub>)<sub>2</sub>HPO<sub>4</sub>\nAmmonium Hydrophosphate\nSoluble'
     },
 
     ba: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'BaHPO<sub>4</sub>\nBarium Hydrophosphate\nRelatively insoluble'
     },
 
     ca: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'CaHPO<sub>4</sub>\nCalcium Hydrophosphate\nRelatively insoluble'
     },
 
     mg: {
       value: 'sS',
       url: '',
-      tooltip: ''
+      tooltip: 'MgHPO<sub>4</sub>\nMagnesium Hydrophosphate\nSlightly Soluble'
     },
     
     sr: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'SrHPO<sub>4</sub>\nStrontium Hydrophosphate\nRelatively insoluble'
     },
     
     al: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cr: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     fe2: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'FeHPO<sub>4</sub>\nFerrous Hydrophosphate\nRelatively insoluble'
     },
     
     fe3: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     mn: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'MnHPO<sub>4</sub>\nManganese Hydrophosphate\nRelatively insoluble'
     },
     
     zn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     ag: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     hg: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     pb: {
       value: 'sS',
       url: '',
-      tooltip: ''
+      tooltip: 'PbHPO<sub>4</sub>\nLead Hydrophosphate\nSlightly Soluble'
     },
     
     sn: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'SnHPO<sub>4</sub>\nTin (II) Hydrophosphate\nRelatively insoluble'
     },
     
     cu: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     }
   },
 
