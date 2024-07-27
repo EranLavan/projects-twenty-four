@@ -2010,121 +2010,121 @@ function SolubilityDraft() {
     h: { 
       value: 'S', 
       url: '',
-      tooltip: ''
+      tooltip: 'H<sub>3</sub>PO<sub>4</sub>\nPhosphoric acid\nRelatively weak acid'
     },
 
     li: { 
       value: 'S', 
       url: '',
-      tooltip: '' 
+      tooltip: 'LiH<sub>2</sub>PO<sub>4</sub>\nLithium Dihydrophosphate\nSoluble' 
     },
 
     na: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'NaH<sub>2</sub>PO<sub>4</sub>\nSodium Dihydrophosphate\nSoluble'
     },
 
     k: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'KH<sub>2</sub>PO<sub>4</sub>\nPotassium Dihydrophosphate\nSoluble'
     },
 
     nh4: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'NH<sub>4</sub>H<sub>2</sub>PO<sub>4</sub>\nAmmonium Dihydrophosphate\nSoluble'
     },
 
     ba: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Ba(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>\nBarium Dihydrophosphate\nSoluble'
     },
 
     ca: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>\nCalcium Dihydrophosphate\nSoluble'
     },
 
     mg: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Mg(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>\nMagnesium Dihydrophosphate\nSoluble'
     },
     
     sr: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Sr(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>\nStrontium Dihydrophosphate\nSoluble'
     },
     
     al: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cr: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     fe2: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Fe(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>\nFerrous Dihydrophosphate\nSoluble'
     },
     
     fe3: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     mn: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Mn(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>\nManganese Dihydrophosphate\nSoluble'
     },
     
     zn: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Zn(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>\nZinc Dihydrophosphate\nSoluble'
     },
     
     ag: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'AgH<sub>2</sub>PO<sub>4</sub>\nSilver Dihydrophosphate\nSoluble'
     },
     
     hg: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     pb: {
-      value: '–',
+      value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     sn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cu: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     }
   },
 
