@@ -2269,122 +2269,122 @@ function SolubilityDraft() {
 
     h: { 
       value: 'S', 
-      url: '',
-      tooltip: ''
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=lithium+carbonate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
+      tooltip: 'H<sub>2</sub>CO<sub>3</sub>\nCarbonic Acid\nWeak acid'
     },
 
     li: { 
       value: 'S', 
       url: '',
-      tooltip: '' 
+      tooltip: 'LiHCO<sub>3</sub>\nLithium Hydrocarbonate\nSoluble' 
     },
 
     na: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'NaHCO<sub>3</sub>\nSodium Hydrocarbonate\nSoluble'
     },
 
     k: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'KHCO<sub>3</sub>\nPotassium Hydrocarbonate\nSoluble'
     },
 
     nh4: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'NH<sub>4</sub>HCO<sub>3</sub>\nAmmonium Hydrocarbonate\nSoluble'
     },
 
     ba: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Ba(HCO<sub>3</sub>)<sub>2</sub>\nBarium Hydrocarbonate\nSoluble'
     },
 
     ca: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Ca(HCO<sub>3</sub>)<sub>2</sub>\nCalcium Hydrocarbonate\nSoluble'
     },
 
     mg: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Mg(HCO<sub>3</sub>)<sub>2</sub>\nMagnesium Hydrocarbonate\nSoluble'
     },
     
     sr: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Sr(HCO<sub>3</sub>)<sub>2</sub>\nStrontium Hydrocarbonate\nSoluble'
     },
     
     al: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cr: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     fe2: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Fe(HCO<sub>3</sub>)<sub>2</sub>\nFerrous Hydrocarbonate\nSoluble'
     },
     
     fe3: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     mn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     zn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     ag: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     hg: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     pb: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Pb(HCO<sub>3</sub>)<sub>2</sub>\nLead Hydrocarbonate\nSoluble'
     },
     
     sn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cu: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     }
   },
 
