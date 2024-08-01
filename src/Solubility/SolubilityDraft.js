@@ -2400,121 +2400,121 @@ function SolubilityDraft() {
     h: { 
       value: 'S', 
       url: '',
-      tooltip: ''
+      tooltip: 'CH<sub>3</sub>COOH\nAcetic Acid\nWeak acid'
     },
 
     li: { 
       value: 'S', 
       url: '',
-      tooltip: '' 
+      tooltip: 'CH<sub>3</sub>COOLi\nLithium Acetate\nSoluble' 
     },
 
     na: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'CH<sub>3</sub>COONa\nSodium Acetate\nSoluble'
     },
 
     k: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'CH<sub>3</sub>COOK\nPotassium Acetate\nSoluble'
     },
 
     nh4: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'CH<sub>3</sub>COONH<sub>4</sub>\nAmmonium Acetate\nSoluble'
     },
 
     ba: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>2</sub>Ba\nBarium Acetate\nSoluble'
     },
 
     ca: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>2</sub>Ca\nCalcium Acetate\nSoluble'
     },
 
     mg: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>2</sub>Mg\nMagnesium Acetate\nSoluble'
     },
     
     sr: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>2</sub>Sr\nStrontium Acetate\nSoluble'
     },
     
     al: {
       value: '–',
       url: '',
-      tooltip: ''
+      tooltip: 'Strongly hydrolized in water solution'
     },
     
     cr: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>3</sub>Cr\nChromium (III) Acetate\nSoluble'
     },
     
     fe2: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>2</sub>Fe\nFerrous Acetate\nSoluble'
     },
     
     fe3: {
       value: '–',
       url: '',
-      tooltip: ''
+      tooltip: 'Strongly hydrolized in water solution'
     },
     
     mn: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>2</sub>Mn\nManganese Acetate\nSoluble'
     },
     
     zn: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>2</sub>Zn\nZinc Acetate\nSoluble'
     },
     
     ag: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'CH<sub>3</sub>COOAg\nSilver Acetate\nSoluble'
     },
     
     hg: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>2</sub>Hg\nMercury Acetate\nSoluble'
     },
     
     pb: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>2</sub>Pb\nLead Acetate\nSoluble'
     },
     
     sn: {
       value: '–',
       url: '',
-      tooltip: ''
+      tooltip: 'Strongly hydrolized in water solution'
     },
     
     cu: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(CH<sub>3</sub>COO)<sub>2</sub>Cu\nCopper Acetate\nSoluble'
     }
   },
 
