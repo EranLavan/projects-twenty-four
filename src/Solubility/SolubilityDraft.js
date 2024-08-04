@@ -2530,121 +2530,121 @@ function SolubilityDraft() {
     h: { 
       value: 'I', 
       url: '',
-      tooltip: ''
+      tooltip: 'H<sub>2</sub>SiO<sub>3</sub>\nSilicic Acid\nInsoluble'
     },
 
     li: { 
       value: 'I', 
       url: '',
-      tooltip: '' 
+      tooltip: 'Li<sub>2</sub>SiO<sub>3</sub>\nLithium Silicate\nRelatively Insoluble' 
     },
 
     na: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Na<sub>2</sub>SiO<sub>3</sub>\nSodium Silicate\nSoluble'
     },
 
     k: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'K<sub>2</sub>SiO<sub>3</sub>\nPotassium Silicate\nSoluble'
     },
 
     nh4: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
 
     ba: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'BaSiO<sub>3</sub>\nBarium Silicate\nRelatively Insoluble'
     },
 
     ca: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'CaSiO<sub>3</sub>\nCalcium Silicate\nRelatively Insoluble'
     },
 
     mg: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'MgSiO<sub>3</sub>\nMagnesium Silicate\nRelatively Insoluble'
     },
     
     sr: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'SrSiO<sub>3</sub>\nStrontium Silicate\nRelatively Insoluble'
     },
     
     al: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cr: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     fe2: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'FeSiO<sub>3</sub>\nFerrous Silicate\nRelatively Insoluble'
     },
     
     fe3: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     mn: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'MnSiO<sub>3</sub>\nManganese Silicate\nRelatively Insoluble'
     },
     
     zn: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'ZnSiO<sub>3</sub>\nZinc Silicate\nRelatively Insoluble'
     },
     
     ag: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     hg: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     pb: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'PbSiO<sub>3</sub>\nLead Silicate\nRelatively Insoluble'
     },
     
     sn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cu: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'CuSiO<sub>3</sub>\nCopper Silicate\nRelatively Insoluble'
     }
   },
 
