@@ -2529,25 +2529,25 @@ function SolubilityDraft() {
 
     h: { 
       value: 'I', 
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=silicic+acid&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'H<sub>2</sub>SiO<sub>3</sub>\nSilicic Acid\nInsoluble'
     },
 
     li: { 
       value: 'I', 
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=lithium+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'Li<sub>2</sub>SiO<sub>3</sub>\nLithium Silicate\nRelatively Insoluble' 
     },
 
     na: {
       value: 'S',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=sodium+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'Na<sub>2</sub>SiO<sub>3</sub>\nSodium Silicate\nSoluble'
     },
 
     k: {
       value: 'S',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=potassium+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'K<sub>2</sub>SiO<sub>3</sub>\nPotassium Silicate\nSoluble'
     },
 
@@ -2559,25 +2559,25 @@ function SolubilityDraft() {
 
     ba: {
       value: 'I',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=barium+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'BaSiO<sub>3</sub>\nBarium Silicate\nRelatively Insoluble'
     },
 
     ca: {
       value: 'I',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=calcium+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'CaSiO<sub>3</sub>\nCalcium Silicate\nRelatively Insoluble'
     },
 
     mg: {
       value: 'I',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=magnesium+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'MgSiO<sub>3</sub>\nMagnesium Silicate\nRelatively Insoluble'
     },
     
     sr: {
       value: 'I',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=strontium+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'SrSiO<sub>3</sub>\nStrontium Silicate\nRelatively Insoluble'
     },
     
@@ -2595,7 +2595,7 @@ function SolubilityDraft() {
     
     fe2: {
       value: 'I',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=ferrous+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'FeSiO<sub>3</sub>\nFerrous Silicate\nRelatively Insoluble'
     },
     
@@ -2607,13 +2607,13 @@ function SolubilityDraft() {
     
     mn: {
       value: 'I',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=manganese+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'MnSiO<sub>3</sub>\nManganese Silicate\nRelatively Insoluble'
     },
     
     zn: {
       value: 'I',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=zinc+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'ZnSiO<sub>3</sub>\nZinc Silicate\nRelatively Insoluble'
     },
     
@@ -2631,7 +2631,7 @@ function SolubilityDraft() {
     
     pb: {
       value: 'I',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=lead+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'PbSiO<sub>3</sub>\nLead Silicate\nRelatively Insoluble'
     },
     
@@ -2643,7 +2643,7 @@ function SolubilityDraft() {
     
     cu: {
       value: 'I',
-      url: '',
+      url: 'https://www.google.com/search?sca_esv=681d2c6e37d88c1e&rlz=1C1CHZN_enEN940EN940&sxsrf=ADLYWIJqKpgwgnqwusv6maijLE_HBKvizw:1719690620776&q=copper+silicate&tbm=isch&source=lnms&fbs=AEQNm0Cjmfui-wh8X_MyYW04R9TpUPIG0MT0vgp9Xt5p8amNX8OCB6eLMfPIJTt-OFLq3eJ5rgOcBnDGxdebLPV1TRIGrGyrbHSNAljEyYJ7-QT7GKh55IcVxL7IxkCgzHWoEfJifPz3e_MtObTRRSLDzpmC9FWcc-7-ms3x7zUVOjCVnHHNUEXC3cYSCjc6XzD1gUJcGsEd_DonwSiz3wYZQD7TmeFpkvtBJJ28uvInV-obHnyBWjAoQ3goihz2GtZo4STXonkz&sa=X&ved=2ahUKEwjxt8zkyoGHAxWXUaQEHUc5BDUQ0pQJegQIDRAB&biw=1301&bih=548&dpr=1',
       tooltip: 'CuSiO<sub>3</sub>\nCopper Silicate\nRelatively Insoluble'
     }
   },
