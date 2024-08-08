@@ -2660,121 +2660,121 @@ function SolubilityDraft() {
     h: { 
       value: 'S', 
       url: '',
-      tooltip: ''
+      tooltip: 'HMnO<sub>4</sub>\nManganic Acid\nStrong acid'
     },
 
     li: { 
       value: 'S', 
       url: '',
-      tooltip: '' 
+      tooltip: 'LiMnO<sub>4</sub>\nLithium Permanganate\nSoluble' 
     },
 
     na: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'NaMnO<sub>4</sub>\nSodium Permanganate\nSoluble'
     },
 
     k: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'KMnO<sub>4</sub>\nPotassium Permanganate\nSoluble'
     },
 
     nh4: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'NH<sub>4</sub>MnO<sub>4</sub>\nAmmonium Permanganate\nSoluble'
     },
 
     ba: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Ba(MnO<sub>4</sub>)<sub>2</sub>\nBarium Permanganate\nSoluble'
     },
 
     ca: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Ca(MnO<sub>4</sub>)<sub>2</sub>\nCalcium Permanganate\nSoluble'
     },
 
     mg: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Mg(MnO<sub>4</sub>)<sub>2</sub>\nMagnesium Permanganate\nSoluble'
     },
     
     sr: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Sr(MnO<sub>4</sub>)<sub>2</sub>\nStrontium Permanganate\nSoluble'
     },
     
     al: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Al(MnO<sub>4</sub>)<sub>3</sub>\nAluminium Permanganate\nSoluble'
     },
     
     cr: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     fe2: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     fe3: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     mn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     zn: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Zn(MnO<sub>4</sub>)<sub>2</sub>\nZinc Permanganate\nSoluble'
     },
     
     ag: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     hg: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     pb: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     sn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cu: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     }
   },
 
