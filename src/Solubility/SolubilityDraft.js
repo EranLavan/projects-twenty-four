@@ -2790,121 +2790,121 @@ function SolubilityDraft() {
     h: { 
       value: 'S', 
       url: '',
-      tooltip: ''
+      tooltip: 'H<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>\nDichromic Acid\nSoluble'
     },
 
     li: { 
       value: 'S', 
       url: '',
-      tooltip: '' 
+      tooltip: 'Li<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>\nLithium Dichromate\nSoluble' 
     },
 
     na: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>\nSodium Dichromate\nSoluble'
     },
 
     k: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>\nPotassium Dichromate\nSoluble'
     },
 
     nh4: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>\nAmmonium Dichromate\nSoluble'
     },
 
     ba: {
       value: 'sS',
       url: '',
-      tooltip: ''
+      tooltip: 'BaCr<sub>2</sub>O<sub>7</sub>\nBarium Dichromate\nSlightly soluble'
     },
 
     ca: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'CaCr<sub>2</sub>O<sub>7</sub>\nCalcium Dichromate\nSoluble'
     },
 
     mg: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     sr: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'SrCr<sub>2</sub>O<sub>7</sub>\nStrontium Dichromate\nRelatively insoluble'
     },
     
     al: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cr: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     fe2: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     fe3: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Fe<sub>2</sub>(Cr<sub>2</sub>O<sub>7</sub>)<sub>3</sub>\nFerric Dichromate\nSoluble'
     },
     
     mn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     zn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     ag: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'Ag<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>\nSilver Dichromate\nRelatively insoluble'
     },
     
     hg: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'HgCr<sub>2</sub>O<sub>7</sub>\nMercury Dichromate\nRelatively insoluble'
     },
     
     pb: {
       value: 'sS',
       url: '',
-      tooltip: ''
+      tooltip: 'PbCr<sub>2</sub>O<sub>7</sub>\nLead Dichromate\nSlightly soluble'
     },
     
     sn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cu: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'CuCr<sub>2</sub>O<sub>7</sub>\nCopper Dichromate\nSoluble'
     }
   },
 
