@@ -2920,121 +2920,121 @@ function SolubilityDraft() {
     h: { 
       value: 'S', 
       url: '',
-      tooltip: ''
+      tooltip: 'H<sub>2</sub>CrO<sub>4</sub>\nChromic Acid\nStrong acid'
     },
 
     li: { 
       value: 'S', 
       url: '',
-      tooltip: '' 
+      tooltip: 'Li<sub>2</sub>CrO<sub>4</sub>\nLithium Chromate\nSoluble' 
     },
 
     na: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Na<sub>2</sub>CrO<sub>4</sub>\nSodium Chromate\nSoluble'
     },
 
     k: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'K<sub>2</sub>CrO<sub>4</sub>\nPotassium Chromate\nSoluble'
     },
 
     nh4: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: '(NH<sub>4</sub>)<sub>2</sub>CrO<sub>4</sub>\nAmmonium Chromate\nSoluble'
     },
 
     ba: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'BaCrO<sub>4</sub>\nBarium Chromate\nRelatively insoluble'
     },
 
     ca: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'CaCrO<sub>4</sub>\nCalcium Chromate\nSoluble'
     },
 
     mg: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'MgCrO<sub>4</sub>\nMagnesium Chromate\nRelatively insoluble'
     },
     
     sr: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'SrCrO<sub>4</sub>\nStrontium Chromate\nRelatively insoluble'
     },
     
     al: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cr: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     fe2: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'FeCrO<sub>4</sub>\nFerrous Chromate\nRelatively insoluble'
     },
     
     fe3: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'Fe<sub>2</sub>(CrO<sub>4</sub>)<sub>3</sub>\nFerric Chromate\nRelatively insoluble'
     },
     
     mn: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'MnCrO<sub>4</sub>\nManganese Chromate\nRelatively insoluble'
     },
     
     zn: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'ZnCrO<sub>4</sub>\nZinc Chromate\nRelatively insoluble'
     },
     
     ag: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'Ag<sub>2</sub>CrO<sub>4</sub>\nSilver Chromate\nRelatively insoluble'
     },
     
     hg: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'HgCrO<sub>4</sub>\nMercury Chromate\nRelatively insoluble'
     },
     
     pb: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'PbCrO<sub>4</sub>\nLead Chromate\nRelatively insoluble'
     },
     
     sn: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'SnCrO<sub>4</sub>\nTin (II) Chromate\nRelatively insoluble'
     },
     
     cu: {
       value: 'I',
       url: '',
-      tooltip: ''
+      tooltip: 'CuCrO<sub>4</sub>\nCopper Chromate\nRelatively insoluble'
     }
   },
 
