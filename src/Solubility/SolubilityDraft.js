@@ -3050,121 +3050,121 @@ function SolubilityDraft() {
     h: { 
       value: 'S', 
       url: '',
-      tooltip: ''
+      tooltip: 'HClO<sub>4</sub>\nPerchloric Acid\nStrong acid'
     },
 
     li: { 
       value: 'S', 
       url: '',
-      tooltip: '' 
+      tooltip: 'LiClO<sub>4</sub>\nLithium Perchlorate\nSoluble' 
     },
 
     na: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'NaClO<sub>4</sub>\nSodium Perchlorate\nSoluble'
     },
 
     k: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'KClO<sub>4</sub>\nPotassium Perchlorate\nSoluble'
     },
 
     nh4: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'NH<sub>4</sub>ClO<sub>4</sub>\nAmmonium Perchlorate\nSoluble'
     },
 
     ba: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Ba(ClO<sub>4</sub>)<sub>2</sub>\nBarium Perchlorate\nSoluble'
     },
 
     ca: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Ca(ClO<sub>4</sub>)<sub>2</sub>\nCalcium Perchlorate\nSoluble'
     },
 
     mg: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Mg(ClO<sub>4</sub>)<sub>2</sub>\nMagnesium Perchlorate\nSoluble'
     },
     
     sr: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Sr(ClO<sub>4</sub>)<sub>2</sub>\nStrontium Perchlorate\nSoluble'
     },
     
     al: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Al(ClO<sub>4</sub>)<sub>3</sub>\nAluminium Perchlorate\nSoluble'
     },
     
     cr: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Cr(ClO<sub>4</sub>)<sub>3</sub>\nChromium (III) Perchlorate\nSoluble'
     },
     
     fe2: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Fe(ClO<sub>4</sub>)<sub>2</sub>\nFerrous Perchlorate\nSoluble'
     },
     
     fe3: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Fe(ClO<sub>4</sub>)<sub>3</sub>\nFerric Perchlorate\nSoluble'
     },
     
     mn: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Mn(ClO<sub>4</sub>)<sub>2</sub>\nManganese Perchlorate\nSoluble'
     },
     
     zn: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Zn(ClO<sub>4</sub>)<sub>2</sub>\nZinc Perchlorate\nSoluble'
     },
     
     ag: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'AgClO<sub>4</sub>\nSilver Perchlorate\nSoluble'
     },
     
     hg: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Hg(ClO<sub>4</sub>)<sub>2</sub>\nMercury Perchlorate\nSoluble'
     },
     
     pb: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Pb(ClO<sub>4</sub>)<sub>2</sub>\nLead Perchlorate\nSoluble'
     },
     
     sn: {
       value: '?',
       url: '',
-      tooltip: ''
+      tooltip: 'Compound does not exist'
     },
     
     cu: {
       value: 'S',
       url: '',
-      tooltip: ''
+      tooltip: 'Cu(ClO<sub>4</sub>)<sub>2</sub>\nCopper Perchlorate\nSoluble'
     }
   },
 ]
