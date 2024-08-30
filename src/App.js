@@ -9,6 +9,7 @@ import Solubility from './Solubility/SolubilityDraft.js';
 import RandomizerA from './Randomizer/RandomizerA.js';
 import Edge from './Edge/Edge.js';
 import Calendar from './Calendar/index.js';
+import Expense from './ExpenseTracker/ExpenseTracker.js';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/randomizer" element={<RandomizerA />} />
           <Route path="/edge/*" element={<Edge />} />
           <Route path='/calendar' element={<Calendar />} />
+          <Route path='/expense' element={<Expense />} />
         
       </Routes>
     </Router>
